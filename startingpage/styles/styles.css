@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1575627854814-b09c4d5ef1af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+.logo {
+  margin-left: 16px;
+  padding-top: 10x;
+  margin-top: 16px;
+}
+
+.logo a {
+  font-family: "Merriweather", serif;
+  color: #cc0000;
+  text-decoration: none;
+}
+
+.logo h2 {
+  margin-top: 0px;
+}
+
+.bar {
+  display: flex;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.bar li {
+  margin-right: 16px;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
+
+.bar a {
+  color: black;
+  text-decoration: none;
+}
+
+.info {
+  font-family: "Merriweather", serif;
+  margin-top: 800px;
+  color: #cc0000;
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.info h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  size: 8px;
+}
+
+.info p {
+  color: black;
+}

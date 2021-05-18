@@ -6,6 +6,9 @@
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 5px 5px rgb(0, 0, 0, 0.15);
 }
 body {
   background: url(https://media-exp1.licdn.com/dms/image/C4E12AQErPMSZQJ0ZSw/article-inline_image-shrink_1500_2232/0/1606753329187?e=1622073600&v=beta&t=Qp4bZz7MnMkcBbm3XwLdzVfuZfUqNlUJhN5wSDdjn2s);

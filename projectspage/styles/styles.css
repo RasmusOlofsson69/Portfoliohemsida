@@ -6,6 +6,8 @@
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
+  position: sticky;
+  top: 0;
 }
 body {
   background: url(https://germantvcompany.com/media/wysiwyg/joshua-aragon-BMnhuwFYr7w-unsplash.jpg);

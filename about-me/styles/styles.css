@@ -54,4 +54,10 @@ body {
 }
 .me {
   color: #cc0000;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+  margin-top: 700px;
+  border-radius: 3.5px;
 }

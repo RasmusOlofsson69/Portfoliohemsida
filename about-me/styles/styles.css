@@ -55,6 +55,8 @@ body {
 
 .me h2 {
   color: #cc0000;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 .me {

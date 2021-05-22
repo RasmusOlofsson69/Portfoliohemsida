@@ -52,8 +52,13 @@ body {
   color: black;
   text-decoration: none;
 }
-.me {
+
+.me h2 {
   color: #cc0000;
+}
+
+.me {
+  color: black;
   align-items: center;
   box-sizing: border-box;
   background-color: white;

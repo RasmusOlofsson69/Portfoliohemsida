@@ -68,4 +68,18 @@ body {
   margin-top: 700px;
   border-radius: 3.5px;
   margin-bottom: 200px;
+} 
+
+.me img {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  float: left;
+  padding-right: 8px; 
+  padding-top: 3px;
+  margin-top: 13px;
 }
+
+/* .me a {
+ padding-left: 2px;
+} */

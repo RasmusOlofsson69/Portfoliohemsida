@@ -17,6 +17,7 @@ body {
   background-size: cover;
   background-color: #464646;
 }
+
 .logo {
   margin-left: 16px;
   padding-top: 10x;
@@ -51,8 +52,39 @@ body {
   text-decoration: none;
 }
 
-.tek {
-  color: white; 
-  margin-top: 400px;
+.engineering{
+  color: black; 
+  /* font-family: ; */
+}
+
+.infoP {
+  margin-top: 600px;
   margin-left: 50px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 3.5px;
+}
+
+.infoP p {
+
+}
+
+.tek {
+  margin-top: 200px;
+  margin-left: 50px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  height: 250px;
+}
+
+.tek iframe {
+  width: auto;
+  height: auto;
+  float: left;
+  display: block;
+} 
+
+.tek a {
+  padding-left: 8px;
 }

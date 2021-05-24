@@ -9,36 +9,6 @@
   position: sticky;
   top: 0;
 }
-/* .tooltiptext .logo  { 
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.logo .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent;
-}
-
-.logo:hover .tooltiptext {
-visibility: visible;
- }  */
 
 body {
   background: url(https://images.unsplash.com/photo-1575627854814-b09c4d5ef1af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
@@ -103,4 +73,21 @@ body {
 
 .info p {
   color: black;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 200px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 150px;
+}
+
+.contact a {
+  position: relative;
+  left: 25%;
 }

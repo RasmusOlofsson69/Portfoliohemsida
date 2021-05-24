@@ -55,7 +55,7 @@ body {
 .engineering{
   color: black; 
   /* font-family: ; */
-}
+} 
 
 .infoP {
   margin-top: 600px;
@@ -65,17 +65,21 @@ body {
   border-radius: 3.5px;
 }
 
-.infoP p {
-
+.infoP h2 {
+  color: #cc0000;
 }
 
 .tek {
-  margin-top: 200px;
+  margin-top: 50px;
   margin-left: 50px;
   background-color: white;
   padding: 5px;
   border-radius: 5px;
   height: 250px;
+}
+
+.tek h3 {
+  color: #cc0000;
 }
 
 .tek iframe {

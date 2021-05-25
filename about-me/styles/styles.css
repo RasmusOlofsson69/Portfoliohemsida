@@ -101,7 +101,7 @@ body {
 
 .me img {
   max-width: 60%;
-  height: auto;
+  max-height: auto;
   display: block;
   float: left;
   padding-right: 8px; 

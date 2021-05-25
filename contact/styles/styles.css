@@ -82,57 +82,35 @@
     display: block;
   }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3.5px;
-  box-sizing: border-box;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=send] {
-  background-color: #cc0000;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 3.5px;
-  cursor: pointer;
-  float: right;
-}
-
-.contanier {
-  border-radius: 5px;
-  background-color: #464646;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=send] {
-    width: 100%;
-    margin-top: 0;
+  .ways {
+    margin-top: 300px;
+    height: auto;
+    width: auto;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 3.5px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
-}
+
+  .LI-profile-badge {
+    margin-left: 35%;
+  }
+
+  .mail {
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 20px;
+  padding: 10px 97px;
+  height: auto;
+  width: 107; 
+  background-color: #464646;
+  border-radius: 3.5px;
+  }
+
+   .mail a[herf="mailto:"] {
+    color: white;
+    text-decoration: none;
+  }

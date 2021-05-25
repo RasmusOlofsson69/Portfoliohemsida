@@ -54,14 +54,14 @@ body {
 
 .engineering{
   color: black; 
-  /* font-family: ; */
+  font-family: "Merriweather", serif;
 } 
 
 .infoP {
   margin-top: 600px;
   margin-left: 50px;
   background-color: white;
-  padding: 5px;
+  padding: 20px;
   border-radius: 3.5px;
 }
 
@@ -69,11 +69,15 @@ body {
   color: #cc0000;
 }
 
+.infoP  p {
+font-size: 18px;
+}
+
 .tek {
   margin-top: 50px;
   margin-left: 50px;
   background-color: white;
-  padding: 5px;
+  padding: 20px;
   border-radius: 5px;
   height: 250px;
 }
@@ -86,9 +90,11 @@ body {
   width: auto;
   height: auto;
   float: left;
-  display: block;
+  padding-right: 10px;
+  border: none;
 } 
 
 .tek a {
-  padding-left: 8px;
+  display: flex;
+  font-size: 16px;
 }

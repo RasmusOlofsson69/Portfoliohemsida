@@ -37,6 +37,7 @@ body {
 .dropdown {
   float: right;
   overflow: hidden;
+  margin-right: 30px;
 }
 
 .dropdown .dropbtn {
@@ -44,7 +45,7 @@ body {
   border: none;
   outline: none;
   color: black;
-  padding: 14px 16px;
+  padding: 14px 40.5px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -58,7 +59,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f9f9f9 ;
-  min-width: 160px;
+  min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -66,10 +67,10 @@ body {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 14px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .dropdown-content a:hover {
@@ -102,32 +103,3 @@ body {
 .info p {
   color: black;
 }
-
-/* .contact {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  margin-top: 200px;
-  margin-bottom: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
-  height: 200px;
-}
-
-.contact a {
-  position: relative;
-  left: 25%;
-  text-decoration: none;
-  color: white;
-  padding: 18px;
-  font-size: 18px;
-  background-color: #464646;
-  border-radius: 1.5px;
-  font-family: "Merriweather", serif;
-}
-
-.LI-profile-badge {
-  position: relative;
-  right: 10%;
-} */

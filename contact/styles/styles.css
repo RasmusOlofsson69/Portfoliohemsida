@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.15);
+  }
+  body {
+    background: url(https://images.unsplash.com/photo-1621863707911-9833c8319851?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }
+  .logo {
+    font-family: "Merriweather", serif;
+    color: #cc0000;
+    margin-left: 16px;
+    padding-top: 10x;
+    margin-top: 16px;
+  }
+  .logo a {
+    font-family: "Merriweather", serif;
+    color: #cc0000;
+    text-decoration: none;
+  }
+  
+  .logo h2 {
+    margin-top: 0px;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+    margin-right: 30px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 40.5px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #cc0000;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9 ;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

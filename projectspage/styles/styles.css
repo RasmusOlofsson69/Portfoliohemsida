@@ -110,7 +110,8 @@ font-size: 18px;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
-  height: 250px;
+  height: auto;
+  width: auto;
 }
 
 .tek h3 {
@@ -118,9 +119,8 @@ font-size: 18px;
 } 
 
 .tek video {
-  height: 70%;
-  width: auto;
-  float: left;
+  height: auto;
+  width: 100%;
   padding-right: 10px;
   border: none;
 } 
@@ -144,6 +144,13 @@ font-size: 18px;
   color: #cc0000;
 }
 
+
+
+ .digi {
+  color: black;
+  font-family: inherit;
+}
+
 .infoP2 {
   color: black;
   align-items: center;
@@ -154,11 +161,7 @@ font-size: 18px;
   margin-left: 50px;
   margin-right: 50px;
   border-radius: 3.5px;
-}
-
-.digi {
-  color: black;
-  font-family: inherit;
+  margin-bottom: 50px;
 }
 
 .infoP2 h2 {
@@ -180,9 +183,8 @@ font-size: 18px;
 }
 
 .billy video {
-  max-height: 70sss%;
-  width: auto;
-  float: left;
+  height: auto;
+  width: 100%;
   padding-right: 10px;
   border: none;
 }

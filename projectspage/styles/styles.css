@@ -60,6 +60,7 @@ body {
 .infoP {
   margin-top: 600px;
   margin-left: 50px;
+  margin-right: 50px;
   background-color: white;
   padding: 20px;
   border-radius: 3.5px;
@@ -76,6 +77,7 @@ font-size: 18px;
 .tek {
   margin-top: 50px;
   margin-left: 50px;
+  margin-right: 50px;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -105,6 +107,7 @@ font-size: 18px;
 .webP {
   margin-top: 50px;
   margin-left: 50px;
+  margin-right: 50px;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -114,7 +117,24 @@ font-size: 18px;
   color: #cc0000;
 }
 
-.contact {
+.infoP2 {
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 3.5px;
+}
+
+.infoP2 h2 {
+  color: #cc0000;
+}
+
+.infoP2  p {
+font-size: 18px;
+}
+
+.contact2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,7 +146,7 @@ font-size: 18px;
   height: 200px;
 }
 
-.contact a {
+.contact2 a {
   position: relative;
   left: 25%;
   text-decoration: none;

@@ -88,8 +88,8 @@ body {
 
 .infoP {
   margin-top: 600px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
   background-color: white;
   padding: 20px;
   border-radius: 3.5px;
@@ -104,9 +104,9 @@ font-size: 18px;
 }
 
 .tek {
+  margin: 25px;
   margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-bottom: 0;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -132,9 +132,9 @@ font-size: 18px;
 }
 
 .webP {
+  margin: 25px;
+  margin-bottom: 0;
   margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -143,8 +143,6 @@ font-size: 18px;
 .webP h3 {
   color: #cc0000;
 }
-
-
 
  .digi {
   color: black;
@@ -157,11 +155,11 @@ font-size: 18px;
   box-sizing: border-box;
   background-color: white;
   padding: 20px;
+  margin: 25px;
   margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-bottom: 0;
   border-radius: 3.5px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .infoP2 h2 {
@@ -177,9 +175,17 @@ font-size: 18px;
   align-items: center;
   box-sizing: border-box;
   background-color: white;
-  padding: 10px;
+  padding: 20px;
+  margin: 25px;
   margin-top: 50px;
+  margin-bottom: 0;
   border-radius: 3.5px;
+  font-family: inherit;
+}
+
+.billy h3 {
+  color: #cc0000;
+  font-size: 1.3em;
 }
 
 .billy video {
@@ -187,4 +193,4 @@ font-size: 18px;
   width: 100%;
   padding-right: 10px;
   border: none;
-}
+} 

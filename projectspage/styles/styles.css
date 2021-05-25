@@ -89,10 +89,8 @@ font-size: 18px;
 } 
 
 .tek video {
+  height: 70%;
   width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 150px;
   float: left;
   padding-right: 10px;
   border: none;
@@ -118,11 +116,14 @@ font-size: 18px;
 }
 
 .infoP2 {
-  margin-top: 200px;
-  margin-left: 50px;
-  margin-right: 50px;
+  color: black;
+  align-items: center;
+  box-sizing: border-box;
   background-color: white;
   padding: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   border-radius: 3.5px;
 }
 
@@ -134,7 +135,25 @@ font-size: 18px;
 font-size: 18px;
 }
 
-.contact2 {
+.billy {
+  color: black;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 3.5px;
+}
+
+.billy video {
+  height: 70%;
+  width: auto;
+  float: left;
+  padding-right: 10px;
+  border: none;
+}
+
+/* .contact {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -146,7 +165,7 @@ font-size: 18px;
   height: 200px;
 }
 
-.contact2 a {
+.contact a {
   position: relative;
   left: 25%;
   text-decoration: none;
@@ -161,4 +180,4 @@ font-size: 18px;
 .LI-profile-badge {
   position: relative;
   right: 10%;
-}
+} */

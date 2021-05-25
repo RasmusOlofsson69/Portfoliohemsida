@@ -19,7 +19,7 @@
   <body>
     <nav class="navbar">
       <div class="logo">
-        <a href="./index.html">
+        <a href="../index.html">
           Rasmus
           <h2>Olofsson</h2>
         </a>
@@ -33,11 +33,40 @@
         </div>
       </div>
     </nav>
-    <nav class="contact-me">
+        <div class="container">
+           <form action="action_page.php">
+               <div class="row">
+                   <div class="col-25">
+                       <label for="fname">First Name</label>
+                   </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name">
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-25">
+                       <label for="lname">Last Name</label>
+                   </div>
+                   <div class="col-75">
+                       <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-25">
+                       <label for="subject">Massage</label>
+                   </div>
+                   <div class="col-75">
+                       <textarea name="subjekt" id="subjekt" placeholder="Write Your Message" style="height:200px;"></textarea>
+                   </div>
+               </div>
+               <div class="row">
+                   <input type="send" value="Send">
+               </div>
+           </form>
+        </div>
         <div class="linkedin">
             <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
             <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="sv_SE" data-type="vertical" data-theme="dark" data-vanity="rasmus-olofsson-715958212"><a class="LI-simple-link" href='https://se.linkedin.com/in/rasmus-olofsson-715958212?trk=profile-badge'>Rasmus Olofsson</a></div>   
         </div>
-    </nav>
   </body>
 </html>

@@ -84,7 +84,7 @@ font-size: 18px;
 
 .tek h3 {
   color: #cc0000;
-}
+} 
 
 .tek video {
   width: auto;
@@ -96,7 +96,49 @@ font-size: 18px;
   border: none;
 } 
 
-.tek a {
+.tek p {
   display: flex;
   font-size: 16px;
+  padding-left: 8px;
+}
+
+.webP {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.webP h3 {
+  color: #cc0000;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 200px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 200px;
+}
+
+.contact a {
+  position: relative;
+  left: 25%;
+  text-decoration: none;
+  color: white;
+  padding: 18px;
+  font-size: 18px;
+  background-color: #464646;
+  border-radius: 1.5px;
+  font-family: "Merriweather", serif;
+}
+
+.LI-profile-badge {
+  position: relative;
+  right: 10%;
 }
